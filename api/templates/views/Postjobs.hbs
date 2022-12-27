@@ -1,0 +1,138 @@
+<!--COMPLETE ALL LINKS -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Job postings</title>
+    <link rel="icon" href="imgs/letter-j.png">     
+	<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/homeStyle.css">                                                                                             
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+        <meta charset="UTF-8">   
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    </head>
+<body>
+<!--Navigation bar-->
+<nav>
+        <div class="logo">
+            <h2><a href="/">jetLinks</a></h2>
+        </div>
+    <ul>
+    <li><a href="/JobFind">Find Jobs</a></li>
+    <li><a href="/Postjobs">Post Jobs</a></li>
+    <li><a href="/login">Login</a></li>
+    <li><a href="/signup">Register</a></li>
+    </ul>
+    
+    <div class="list-icon">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+    </div>
+    </nav>
+
+<section class="py-5 my-5">
+    <div class="container">
+        <div class="bg-white shadow rounded-lg d-block d-sm-flex">
+            <div class="profile-tab-nav border-right">
+                <div class="p-4">
+                    <div class="img-circle text-center mb-3">
+                    </div>
+                    <h4 class="text-center"></h4>
+                </div>
+            <div class="tab-content p-4 p-md-5" id="v-pills-tabContent">
+                <div class="tab-pane fade show active" id="account" role="tabpanel" aria-labelledby="account-tab">
+                    <h3 class="mb-4">Job postings</h3>
+                    <div class="row">
+                        <div class="col-md-6">
+                        <form action="/Postjobs" method="POST">
+                            <div class="form-group">
+                                  <label>Job Title</label>
+                                  <input type="text" class="form-control" value="" name="jobTitle">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                  <label>Job type</label>
+                                  <input type="text" class="form-control" value="" name="jobType">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                  <label>Contact Info (Email)</label>
+                                  <input type="text" class="form-control" value="" name="contactEmail">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                  <label>Phone number</label>
+                                  <input type="text" class="form-control" value="" name="phoneNum">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                  <label>Company name</label>
+                                  <input type="text" class="form-control" value="" name="compName">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                  <label>Sector</label>
+                                  <input type="text" class="form-control" value="" name="sectorName">
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                  <label>Job Description</label>
+                                <textarea class="form-control" rows="4" name="descript"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <button type="submit" class="btn btn-primary" value="">Update</button><p>   </p>
+                        <button class="btn btn-light" href="/">Cancel</button>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</form>
+<div class="footer">
+            <div class="branding">
+                <img src="imgs/letter-j.png" href="/"> <div class="logo"><h2><a href="/">jetLinks</a></h2></div>
+            </div>
+            <div class="content-links">
+                <ul>
+                    <li><a href="/JobFind">Find Jobs</a></li>
+                    <li><a href="/Postjobs">Post Jobs</a></li>
+                    <li><a href="/login">Login</a></li>
+                    <li><a href="/signup">Register</a></li>
+                </ul>s
+            </div>
+            <div class="socials">
+                <ul>
+                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+                </ul>
+            </div>
+        
+        </div>  
+        <div class="end-footer">
+            Copyright &copy; Web Programming Final Project. All rights Reserved
+        </div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
